@@ -78,9 +78,9 @@ const Work = () => {
               <span className='text-3xl text-white'>Ecommerce Website</span>
             </div>
 
-            <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50'>
-              <span className='text-3xl text-white inline-block pr-4'><a href="https://github.com/JimRef/Ecommerce-Website" target='_blank' rel='noreferrer'> <FaGithub/> </a></span>
-              <span className='text-2xl text-white inline-block pr-4'><a href="https://ecommerce-jimref.vercel.app/" target='_blank' rel='noreferrer'> <FaExternalLinkAlt/> </a></span>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-2 transition-all duration-1000 z-50 space-x-4'>
+              <span className='text-3xl text-white inline-block'><a href="https://github.com/JimRef/Ecommerce-Website" target='_blank' rel='noreferrer'> <FaGithub/> </a></span>
+              <span className='text-3xl text-white inline-block'><a href="https://ecommerce-jimref.vercel.app/" target='_blank' rel='noreferrer'> <FaExternalLinkAlt/> </a></span>
             </div>
 
           </div>
