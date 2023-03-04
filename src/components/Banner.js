@@ -54,9 +54,7 @@ const Banner = () => {
           viewport={{once: false, amount: 0.7}}          
           className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <button className='btn btn-lg'><Link to ='contact' smooth={true}>Contact me</Link></button>
-            <a href='#' className='text-gradient btn-link'>
-            My Profolio
-            </a>
+            <Link to ='home' className='text-gradient btn-link' smooth={true}>My Profolio</Link>            
           </motion.div>
           <motion.div
           variants={fadeIn('up',0.7)} 
@@ -64,13 +62,13 @@ const Banner = () => {
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}}
            className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href="https://github.com/JimRef" target='_blank'>
+            <a href="https://github.com/JimRef" target='_blank' rel='noreferrer'>
                 <FaGithub/>
             </a>
-            <a href="https://www.linkedin.com/in/jimmy-refugio/" target='_blank'>
+            <a href="https://www.linkedin.com/in/jimmy-refugio/" target='_blank' rel='noreferrer'>
                 <FaLinkedin/>
             </a>
-            <a href="https://gitlab.com/JimRef" target='_blank'>
+            <a href="https://gitlab.com/JimRef" target='_blank' rel='noreferrer'>
                 <FaGitlab/>
             </a>
           </motion.div>

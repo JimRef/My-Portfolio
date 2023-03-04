@@ -1,6 +1,7 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import { fadeIn } from '../variants';
+import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa';
 import Img1 from '../assets/portfolio-img1.png'
 import Img2 from '../assets/portfolio-img2.png'
 import Img3 from '../assets/portfolio-img3.png'
@@ -35,7 +36,10 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Front-End Development</span></div>
 
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>My Portfolio Website</span>
+              <span className='text-3xl text-white'>My Portfolio Website </span>
+            </div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50'>
+              <span className='text-3xl text-white'><a href="https://github.com/JimRef/My-Portfolio" target='_blank' rel='noreferrer'><FaGithub/></a></span>
             </div>
           </div>
         </motion.div>    
@@ -52,11 +56,15 @@ const Work = () => {
 
               <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt=''/>
 
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'><a href="https://github.com/JimRef/Ecommerce-API" target='_blank' rel='noreferrer'>Back-End Development</a></span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Back-End Development</span></div>
 
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Ecommerce API</span>
               </div>
+
+              <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50'>
+              <span className='text-3xl text-white'><a href="https://github.com/JimRef/Ecommerce-API" target='_blank' rel='noreferrer'><FaGithub/></a></span>
+            </div>
           </div>
 
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -64,11 +72,17 @@ const Work = () => {
 
             <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt=''/>
 
-            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'><a href="https://ecommerce-jimref.vercel.app/" target='_blank' rel='noreferrer'>Full-Stack Development</a></span></div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Full-Stack Development</span></div>
 
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
               <span className='text-3xl text-white'>Ecommerce Website</span>
             </div>
+
+            <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50'>
+              <span className='text-3xl text-white inline-block pr-4'><a href="https://github.com/JimRef/Ecommerce-Website" target='_blank' rel='noreferrer'> <FaGithub/> </a></span>
+              <span className='text-2xl text-white inline-block pr-4'><a href="https://ecommerce-jimref.vercel.app/" target='_blank' rel='noreferrer'> <FaExternalLinkAlt/> </a></span>
+            </div>
+
           </div>
 
         </motion.div>
